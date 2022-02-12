@@ -1,0 +1,91 @@
+nav { background-color: rgb(7, 153, 129);
+}
+
+main { text-align: center;
+       margin-top: 20px;
+       margin-bottom: 50px;
+}
+
+.row { width: 90%;
+       margin-top: 20px;
+}
+
+.banner-one {
+    /*min-width: 10%;*/
+    width: 100%;
+    height: 526px;
+}
+
+.banner-two {
+    width: 100%;
+    height: 655px;
+}
+
+.banner-three {
+    width: 100%;
+    height: 695px;
+}
+
+.botao-mobile {
+    border-color: black;
+    margin-right: 2px;
+    margin-bottom: 5px;
+}
+
+.first-div {
+    color:crimson;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.titulo {
+    color: #0A3871;
+}
+
+.result {
+    color: #0A3871;
+}
+
+.chars {
+    color: #0A3871;
+    font-size: 25px;
+    padding-right: 45px;
+}
+
+.letras-none {
+    font-size: 21px;
+    padding-right: 45px;
+}
+
+.motivation {
+    font-size: 21px;
+}
+
+.back-white {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 363);
+    padding-top: 25px;
+    padding-right: 95px;
+}
+
+.botoes {
+    display:none;
+    margin-left: 5px;
+}
+
+.bttn-new-game {
+    border-radius: 15px;
+}
+
+.redefine {
+    display: none;
+    margin-left: 75px;
+    color: darkslategray;
+}
+
+footer { 
+    clear: left;
+}
+
+
