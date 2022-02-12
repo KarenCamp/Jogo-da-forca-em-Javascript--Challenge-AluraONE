@@ -3,6 +3,9 @@ Obs: Analisando os arquivos .js terminado o projeto, pude perceber que poderia t
 Outra observação: comecei a desenvolver o projeto visando o jogo da forca ser jogado através do teclado físico do computador, no meio implementei o teclado da página devido ao acesso em dispositivos móveis, e por fim acabei eliminando o primeiro, não há tanto a se digitar no jogo, o segundo torna-se suficiente para ambos os casos.
 
 
+
+
+
 https://github.com/KarenCamp/Jogo-da-Forca-em-JS-Mobile--Challenge-AluraONE
                                       
 Acima o link do repositório com os pequenos ajustes para a versão mobile do projeto.
