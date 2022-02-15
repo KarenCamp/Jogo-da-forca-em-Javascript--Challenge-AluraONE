@@ -12,6 +12,7 @@ var varDeVitoria = false;
 var tentativas = 0;
 var bttnRedefinir = document.querySelector(".redefine");
 var bttnNewGame = document.querySelector(".bttn-new-game");
+var imgResult = document.querySelector(".img-result");
 
 
 function lerLetrasKeyboard (ind, letra, keyCodeEquivalente) {
@@ -140,6 +141,8 @@ function lerLetrasKeyboard (ind, letra, keyCodeEquivalente) {
             motivation.innerHTML = "&nbsp Não foi desta vez, tente novamente! &nbsp";
             btns.style.display = "none";
             bttnNewGame.style.display = "none";
+            imgResult.setAttribute("src", "./imagens/derrotado.png")
+            imgResult.setAttribute("alt", "celebração de vitória")
             break;
     }
   }
@@ -149,6 +152,8 @@ if (guardaLetraYes.length -1 == selecionado.length - 1) {
     btns.style.display = "none";
     bttnNewGame.style.display = "none";
     varDeVitoria = true;
+    imgResult.setAttribute("src", "./imagens/celebrando-vitoria.png")
+    imgResult.setAttribute("alt", "emoji pensativo e um pouco chateado")
   }   
 }
 

@@ -78,6 +78,12 @@ main { text-align: center;
     border-radius: 15px;
 }
 
+.img-result {
+    width: 270px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
 .redefine {
     display: none;
     margin-left: 75px;
