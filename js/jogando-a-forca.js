@@ -142,7 +142,7 @@ function lerLetrasKeyboard (ind, letra, keyCodeEquivalente) {
             btns.style.display = "none";
             bttnNewGame.style.display = "none";
             imgResult.setAttribute("src", "./imagens/derrotado.png")
-            imgResult.setAttribute("alt", "celebração de vitória")
+            imgResult.setAttribute("alt", "emoji pensativo e um pouco chateado")
             break;
     }
   }
@@ -153,7 +153,7 @@ if (guardaLetraYes.length -1 == selecionado.length - 1) {
     bttnNewGame.style.display = "none";
     varDeVitoria = true;
     imgResult.setAttribute("src", "./imagens/celebrando-vitoria.png")
-    imgResult.setAttribute("alt", "emoji pensativo e um pouco chateado")
+    imgResult.setAttribute("alt", "celebracao de vitoria")
   }   
 }
 
